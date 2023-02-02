@@ -10,10 +10,10 @@ public class DbConnection {
 
 	
 	private static String HOST = "localhost";
-	private static String PASSWORD = "projectweek7";
+	private static String PASSWORD = "project";
 	private static int PORT = 3306;
-	private static String SCHEMA = "projects";
-	private static String USER = "projects";
+	private static String SCHEMA = "project";
+	private static String USER = "project";
 	
 	  public static Connection getConnection() {
 	        String url =
